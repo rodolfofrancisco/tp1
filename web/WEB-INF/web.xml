@@ -12,6 +12,14 @@
         <servlet-name>Logout</servlet-name>
         <servlet-class>Servlet.Logout</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>FormCompra</servlet-name>
+        <servlet-class>Servlet.FormCompra</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MostraCompra</servlet-name>
+        <servlet-class>Servlet.MostraCompra</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
         <url-pattern>/Login</url-pattern>
@@ -23,6 +31,14 @@
     <servlet-mapping>
         <servlet-name>Logout</servlet-name>
         <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FormCompra</servlet-name>
+        <url-pattern>/FormCompra</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MostraCompra</servlet-name>
+        <url-pattern>/MostraCompra</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
