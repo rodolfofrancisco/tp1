@@ -63,12 +63,12 @@ public class MostraCompra extends HttpServlet {
             out.println("<title>Formulário de compra enviado</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<ul> Valores");
-            out.println("<li>codigo: " + codigo +"</li>");
-            out.println("<li>data: " + data +"</li>");
-            out.println("<li>produto: " + produto +"</li>");
-            out.println("<li>dataEntrega: " + dataEntrega +"</li>");
-            out.println("<li> Preço total " + preco +"</li>");
+            out.println("<ul>Dados da compra");
+            out.println("<li>Codigo: " + codigo +"</li>");
+            out.println("<li>Data: " + data +"</li>");
+            out.println("<li>Produto: " + produto +"</li>");
+            out.println("<li>Data de Entrega: " + dataEntrega +"</li>");
+            out.println("<li>Preço total " + preco +"</li>");
             out.println("</ul>");
             out.println("</body>");
             out.println("</html>");
