@@ -18,13 +18,13 @@
                                 <div class="row">
                                     <div class="input-group field-form">
                                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                        <input type="email" name="login"  class="form-control " placeholder="Login" required/>
+                                        <input type="email" name="login"  class="form-control " placeholder="Email" required="true"/>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-group field-form">
                                         <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                        <input type="password" name="senha" class="form-control" placeholder="Senha" required/>
+                                        <input type="password" name="senha" class="form-control" placeholder="Senha" required="true"/>
                                     </div>
                                 </div>
                                 <div class="row">

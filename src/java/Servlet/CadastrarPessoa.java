@@ -1,11 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Servlet;
 
-import DAO.IPessoaDAO;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,12 +12,8 @@ import java.io.InputStream;
 import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.Part;
-
-
 import DAO.PessoaDAO;
 import Models.Pessoa;
-
-
 
 /**
  *
@@ -32,17 +22,7 @@ import Models.Pessoa;
 @WebServlet(name = "CadastrarPessoa", urlPatterns = {"/CadastrarPessoa"})
 @MultipartConfig(maxFileSize = 16177215)
 public class CadastrarPessoa extends HttpServlet 
-{
-
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
+{    
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException, Exception 
     {

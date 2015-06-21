@@ -21,7 +21,7 @@
                 <c:when test="${ pessoa eq null }">
                     <ul class="nav navbar-nav">
                         <li><a href="<%=request.getContextPath()%>/Login.jsp" class="btn-navbar">Entrar</a></li>
-                        <li><a href="<%=request.getContextPath()%>/Cadastro.jsp" class="btn-navbar">Cadastre-se</a></li>
+                        <li><a href="<%=request.getContextPath()%>/Cadastro.jsp" class="btn-navbar">Cadastre-se</a></li>                        
                     </ul>
                 </c:when>
                 <c:otherwise>
