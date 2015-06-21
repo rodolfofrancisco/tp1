@@ -22,27 +22,27 @@
                                 <div class="row col-md-6">
                                     <div class="form-group field-form">
                                         <label>Nome:</label>
-                                        <input type="text" class="form-control" name="nome"/>
+                                        <input type="text" class="form-control" name="nome" required="true"/>
                                     </div>
                                     <div class="form-group field-form">
                                         <label>Nascimento:</label>
-                                        <input type="text" class="form-control" id="datepicker" name="nascimento"/>
+                                        <input type="text" class="form-control" id="datepicker" name="nascimento" required="true"/>
                                     </div>
                                 </div>
                                 <div class="row col-md-6">
                                     <div class="form-group field-form">
                                         <label>Foto:</label>
-                                        <input type="file" class="form-control" id="foto" name="foto"/>
+                                        <input type="file" class="form-control" id="foto" name="foto" required="true"/>
                                     </div>
                                     <div class="form-group field-form">
                                         <label>E-mail:</label>
-                                        <input type="email" class="form-control" name="email"/>
+                                        <input type="email" class="form-control" name="email" required="true"/>
                                     </div>
                                 </div>
                                 <div class="row col-md-6">
                                     <div class="form-group field-form">
                                         <label>Senha:</label>
-                                        <input type="password" class="form-control" name="senha"/>
+                                        <input type="password" class="form-control" name="senha" required="true"/>
                                     </div>
                                 </div>                    
                                 <div class="row col-md-12">
