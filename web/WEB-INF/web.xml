@@ -20,6 +20,18 @@
         <servlet-name>MostraCompra</servlet-name>
         <servlet-class>Servlet.MostraCompra</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Categoria</servlet-name>
+        <servlet-class>Servlet.Categoria</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Crawler</servlet-name>
+        <servlet-class>Servlet.Crawler</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Localizacao</servlet-name>
+        <servlet-class>Servlet.Localizacao</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
         <url-pattern>/Login</url-pattern>
@@ -39,6 +51,18 @@
     <servlet-mapping>
         <servlet-name>MostraCompra</servlet-name>
         <url-pattern>/MostraCompra</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Categoria</servlet-name>
+        <url-pattern>/categoria/index</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Crawler</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Localizacao</servlet-name>
+        <url-pattern>/localizacao/index</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

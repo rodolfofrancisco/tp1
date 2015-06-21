@@ -70,7 +70,7 @@ public class CadastrarPessoa extends HttpServlet
                 pessoaDAO = new PessoaDAO();                              
                 pessoaDAO.Cadastrar(pessoa);
                 session.setAttribute("pessoa", pessoa);
-                request.getRequestDispatcher("./Logado.jsp" ).forward(request, response);
+                response.sendRedirect("./index");
                 
             }
 

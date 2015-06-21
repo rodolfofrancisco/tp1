@@ -57,7 +57,7 @@ public class Login extends HttpServlet {
             else 
             {   
                 session.setAttribute("pessoa", pessoa);
-                request.getRequestDispatcher("./Logado.jsp" ).forward(request, response);
+                response.sendRedirect("./index");
             }
            
         }
