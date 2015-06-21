@@ -12,6 +12,33 @@
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
+                    <file>${file.reference.batik-awt-util-1.6.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-dom-1.6.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-svggen-1.6.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-util-1.6.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-xml-1.6.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.cewolf-1.2.4.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-logging-1.1.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jcommon-1.0.18.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jfreechart-1.0.14.jar}</file>
+                </library>
+                <library dirs="200">
                     <file>${file.reference.twitter4j-async-4.0.3.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
@@ -34,10 +61,10 @@
             </web-module-libraries>
             <web-module-additional-libraries/>
             <source-roots>
-                <root id="src.dir" name="Pacotes de Códigos-fonte"/>
+                <root id="src.dir"/>
             </source-roots>
             <test-roots>
-                <root id="test.src.dir" name="Pacotes de Teste"/>
+                <root id="test.src.dir"/>
             </test-roots>
         </data>
     </configuration>

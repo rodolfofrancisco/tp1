@@ -34,7 +34,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="navbar-brand btn btn-link" href="./Logout">Logout</a>
+                                    <a class="navbar-brand btn btn-link" href="<%=request.getContextPath()%>/Logout">Logout</a>
                                 </li>
                              </ul>
                         </li>
